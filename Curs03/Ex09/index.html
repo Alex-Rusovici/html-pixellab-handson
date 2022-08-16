@@ -7,7 +7,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>Document</title>
+  <title>Mesaj</title>
 
   <link
     rel="stylesheet"
@@ -16,6 +16,62 @@
 </head>
 
 <body>
+  <form>
+    <label for="name">Nume: *</label><br>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      placeholder="Nume"
+      minlength="5"
+      maxlength="30"
+      required
+    >
+
+    <br><br>
+
+    <label for="surname">Prenume: *</label><br>
+    <input
+      type="text"
+      name="surname"
+      id="surname"
+      placeholder="Prenume"
+      minlength="5"
+      maxlength="30"
+      required
+    >
+
+    <br><br>
+
+    <label for="message">Mesaj: *</label><br>
+    <textarea
+      name="message"
+      id="message"
+      placeholder="Mesaj"
+      cols="30"
+      rows="4"
+      required
+    ></textarea>
+
+    <br><br>
+
+    <label for="details">Detalii</label><br>
+    <textarea
+      name="details"
+      id="details"
+      placeholder="Detalii"
+      cols="30"
+      rows="8"
+    ></textarea>
+
+    <br><br>
+
+    <button
+      type="submit"
+      name="submit"
+    >Trimite</button>
+  </form>
+
   <div
     class="pixeltab-host"
     id="html01-03-09"
