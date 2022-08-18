@@ -17,6 +17,394 @@
 
 <body>
 
+  <p>
+    <a
+      href="https://ro.wikipedia.org/wiki/Landing_page"
+      title="Home"
+    >Home</a>
+    *
+    <a
+      href="https://ro.wikipedia.org/wiki/New_World_Order"
+      title="Place Order"
+    ><b>Place Order</b></a>
+    *
+    <a
+      href="https://en.wikipedia.org/wiki/Customer_service"
+      title="Customer Service"
+    >Customer Service</a>
+    *
+    <a
+      href="https://en.wikipedia.org/wiki/Contact_(Daft_Punk_song)"
+      title="Contact"
+    >Contact</a>
+  </p>
+
+  <h1>Place Order</h1>
+
+  <p>
+    This is the <b>guest checkout</b>, thank you for your order!
+  </p>
+
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores officiis earum, incidunt repellat vitae molestiae,
+    excepturi error ut quo velit id officia eveniet quibusdam magnam. Nemo laborum natus commodi dolore!
+  </p>
+
+  <h2>Products</h2>
+  <p>
+    <img
+      src="images/mouse.jpg"
+      alt="Mouse negru cu RGB"
+    >
+    <a
+      href="https://en.wikipedia.org/wiki/Delete_key"
+      title="Sterge"
+    ><u>Sterge</u></a>
+    <a
+      href="https://en.wikipedia.org/wiki/EdIT"
+      title="Editeaza"
+    ><u>Editeaza</u></a>
+  </p>
+
+  <hr>
+
+  <p>
+    <img
+      src="images/extension_chord.jpg"
+      alt="Prelungitare albe"
+    >
+    <a
+      href="https://en.wikipedia.org/wiki/Delete_key"
+      title="Sterge"
+    ><u>Sterge</u></a>
+    <a
+      href="https://en.wikipedia.org/wiki/EdIT"
+      title="Editeaza"
+    ><u>Editeaza</u></a>
+  </p>
+
+  <hr>
+
+  <p>
+    <img
+      src="images/phone.jpg"
+      alt="Telefon android cu fundal portocaliu"
+    >
+    <a
+      href="https://en.wikipedia.org/wiki/Delete_key"
+      title="Sterge"
+    ><u>Sterge</u></a>
+    <a
+      href="https://en.wikipedia.org/wiki/EdIT"
+      title="Editeaza"
+    ><u>Editeaza</u></a>
+  </p>
+
+  <hr>
+
+  <h2>Order now</h2>
+
+  <p>
+    On our website <i>no account is needed</i>.
+  </p>
+
+  <ol>
+    <li>
+      First we need some infor about yourself.
+      <b>Don't forget to provide a phone</b>
+    </li>
+    <li>
+      Then we need your <i>real</i> shipping address.
+    </li>
+    <li>
+      Finally, your credit card information.
+    </li>
+  </ol>
+
+  <form>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <p>
+        Title:
+        <label for="male">Mr</label>
+        <input
+          type="radio"
+          name="gender"
+          id="male"
+          value="male"
+          checked
+        >
+        <label for="female">Ms</label>
+        <input
+          type="radio"
+          name="gender"
+          id="female"
+          value="female"
+        >
+        <label for="na">Unspecified</label>
+        <input
+          type="radio"
+          name="gender"
+          id="na"
+          value="na"
+        >
+      </p>
+      <br><br>
+      <label for="name">*Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+      <br><br>
+      <label for="surname">*Surname:</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      >
+      <br><br>
+      <label for="email">*Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      >
+      <br><br>
+      <label for="phone">*Phone:</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+        required
+      >
+    </fieldset>
+
+    <fieldset>
+      <legend>Address</legend>
+      <label for="address-name">*Name:</label>
+      <input
+        type="text"
+        name="address-name"
+        id="address-name"
+        placeholder="Name"
+        required
+      >
+      <br><br>
+      <label for="address-surname">*Surname:</label>
+      <input
+        type="text"
+        name="address-surname"
+        id="address-surname"
+        placeholder="Surname"
+        required
+      >
+      <br><br>
+      <label for="address-phone">*Phone:</label>
+      <input
+        type="tel"
+        name="address-phone"
+        id="address-phone"
+        placeholder="Phone"
+        required
+      >
+      <br><br>
+      <label for="address1">*Address Line 1</label>
+      <input
+        type="text"
+        name="address1"
+        id="address1"
+        placeholder="Address Line 1"
+        required
+      >
+      <br><br>
+      <label for="address2">Address Line 2</label>
+      <input
+        type="text"
+        name="address2"
+        id="address2"
+        placeholder="Address Line 2"
+      >
+      <br><br>
+      <label for="city">*City:</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        placeholder="City"
+        required
+      >
+      <br><br>
+      <label for="state">*State:</label>
+      <select
+        name="state"
+        id="state"
+        required
+      >
+        <option value="">--State--</option>
+        <option value="newYork">New York</option>
+        <option value="washington">Washington</option>
+        <option value="alabama">Alabama</option>
+        <option value="kentucky">Kentucky</option>
+        <option value="northDakota">North Dakota</option>
+      </select>
+      <br><br>
+      <label for="postcode">*Postecode:</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        placeholder="Postcode"
+        required
+      >
+    </fieldset>
+
+    <fieldset>
+      <legend>Card Information</legend>
+      <label for="card-number">*Card Number:</label>
+      <input
+        type="text"
+        name="card-number"
+        id="card-number"
+        placeholder="Card Number"
+        required
+      >
+      <br><br>
+      <label for="card-name">*Name on card</label>
+      <input
+        type="text"
+        name="card-name"
+        id="card-name"
+        placeholder="Name on card"
+        required
+      >
+      <br><br>
+      <label for="card-expiry-month">*Expiry Month:</label>
+      <select
+        name="card-expiry-month"
+        id="card-expiry-month"
+        required
+      >
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="august">August</option>
+        <option value="september">September</option>
+        <option value="october">October</option>
+        <option value="november">November</option>
+        <option value="december">December</option>
+      </select>
+      <label for="card-expiry-year">*Expiry Year:</label>
+      <select
+        name="card-expiry-year"
+        id="card-expiry-year"
+        required
+      >
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+        <option value="2027">2027</option>
+        <option value="2028">2028</option>
+      </select>
+      <br><br>
+      <label for="card-cvv">*CVV:</label>
+      <input
+        type="text"
+        name="card-cvv"
+        id="card-cvv"
+        placeholder="CVV"
+        required
+      >
+    </fieldset>
+
+    <fieldset>
+      <legend>Form Controls</legend>
+      <input
+        type="checkbox"
+        name="terms"
+        id="terms"
+        value="terms"
+        required
+      >
+      <label for="terms">*You are required to agree to the
+        <a
+          href="https://en.wikipedia.org/wiki/Terms_and_Conditions_May_Apply"
+          title="terms and conditions"
+        >terms and conditions
+        </a>
+      </label>
+      <br><br>
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+        value="subscribe"
+      >
+      <label for="subscribe">Can we send you emails?</label>
+      <br><br>
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+        required
+      >
+      <label for="gdpr-consent">GDPR generic consent?</label>
+      <br><br>
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >PLACE ORDER
+      </button>
+
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset
+      </button>
+    </fieldset>
+  </form>
+
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci molestias sapiente unde possimus dolor tempora in
+    sint hic eos. Eaque dignissimos perferendis voluptas sequi nemo nam perspiciatis natus illum ipsam?
+  </p>
+
+  <p>
+    <a
+      href="https://ro.wikipedia.org/wiki/Landing_page"
+      title="Home"
+    >Home</a>
+    *
+    <a
+      href="https://ro.wikipedia.org/wiki/New_World_Order"
+      title="Place Order"
+    ><b>Place Order</b></a>
+    *
+    <a
+      href="https://en.wikipedia.org/wiki/Customer_service"
+      title="Customer Service"
+    >Customer Service</a>
+    *
+    <a
+      href="https://en.wikipedia.org/wiki/Contact_(Daft_Punk_song)"
+      title="Contact"
+    >Contact</a>
+  </p>
 
   <div
     class="pixeltab-host"
