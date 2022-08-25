@@ -1,9 +1,9 @@
 a {
-  color: green
+  color: green;
 }
 
 p i {
-  color: red
+  color: red;
 }
 
 .line {
@@ -34,11 +34,12 @@ b {
   text-decoration: underline;
 }
 
-a[href^="http://"] {
+a[href^="http://"]
+{
   color: red;
 }
 
-a[href*=".com"] {
+a[href*='.com'] {
   color: black;
   text-decoration: underline;
   text-decoration: none;
