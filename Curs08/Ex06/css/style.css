@@ -27,12 +27,42 @@
 }
 
 .green {
-  background-color: green;
-  width: 500px;
-  height: 220px;
-  border: 1px solid black;
+width: 500px;
+height: 220px;
+background-color: green;
+border: 1px solid black;
+padding: 15px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.purple {
+  background-color: purple;
+  border: 2px dotted green;
+  border-radius: 40px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px brown;
+}
+
+.turquoise {
+  background-color: turquoise;
+  border: 1px solid blue;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px red;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.transparent {
+  width: 550px;
+  border: 2px solid red;
+  box-shadow: 10px 10px 5px gray;
+  padding: 20px;
+  margin-bottom: 20px;
   margin-top: 20px;
-  padding: 15px;
-  box-shadow: 15px 15px 2px grey;
+  margin-left: auto;
+  margin-right: auto;
   margin: 0 auto;
 }
