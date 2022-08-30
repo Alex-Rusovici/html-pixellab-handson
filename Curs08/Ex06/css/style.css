@@ -1,0 +1,38 @@
+.my-div {
+  width: 300px;
+  height: 202px;
+  background-color: red;
+  border: 1px solid green;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px green;
+}
+
+.blue {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: blue;
+  padding: 15px;
+  box-shadow: inset 2px 2px 10px black;
+  margin: 0 auto;
+}
+
+.container {
+  width: 75%;
+  height: unset;
+  border: 3px solid green;
+  padding: 15px;
+  box-shadow: 3px 3px 2px blue;
+  margin: 0 auto;
+}
+
+.green {
+  background-color: green;
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 15px;
+  box-shadow: 15px 15px 2px grey;
+  margin: 0 auto;
+}
