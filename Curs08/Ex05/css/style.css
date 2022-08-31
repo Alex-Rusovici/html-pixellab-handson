@@ -16,12 +16,12 @@ body {
 }
 
 .nav-bottom {
-position: absolute;
-bottom: 0;
-right: 0;
-background-color: blue;
-color: brown;
-z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: blue;
+  color: brown;
+  z-index: 1;
 }
 
 .nav-top a,
@@ -41,8 +41,8 @@ z-index: 1;
 }
 
 .sup {
-position: relative;
-top: -5px;
-font-size: 10px;
+  position: relative;
+  top: -5px;
+  font-size: 10px;
 }
 

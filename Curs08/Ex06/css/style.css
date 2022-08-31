@@ -1,10 +1,10 @@
 .my-div {
+  border: 1px solid green;
   width: 300px;
   height: 202px;
   background-color: red;
-  border: 1px solid green;
-  margin: 0 auto;
   box-shadow: 1px 1px 5px green;
+  margin: 0 auto;
 }
 
 .blue {
@@ -14,7 +14,6 @@
   background-color: blue;
   padding: 15px;
   box-shadow: inset 2px 2px 10px black;
-  margin: 0 auto;
 }
 
 .container {
@@ -23,17 +22,18 @@
   border: 3px solid green;
   padding: 15px;
   box-shadow: 3px 3px 2px blue;
-  margin: 0 auto;
 }
 
 .green {
-width: 500px;
-height: 220px;
-background-color: green;
-border: 1px solid black;
-padding: 15px;
-margin-top: 20px;
-margin-bottom: 20px;
+  margin: 0 auto;
+  background-color: green;
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 15px 15px 2px gray;
 }
 
 .purple {
@@ -56,13 +56,11 @@ margin-bottom: 20px;
 }
 
 .transparent {
+  margin: 0 auto;
   width: 550px;
   border: 2px solid red;
   box-shadow: 10px 10px 5px gray;
   padding: 20px;
-  margin-bottom: 20px;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0 auto;
+  margin-bottom: 20px;
 }
