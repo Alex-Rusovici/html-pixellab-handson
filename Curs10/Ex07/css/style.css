@@ -1,0 +1,49 @@
+.my-first-list a {
+  display: block;
+  margin: 8px 0;
+}
+
+.my-first-list a::before {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: purple;
+  transform: rotate(45deg);
+  margin-right: 8px;
+  content: '';
+}
+
+.my-first-list a::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 8px;
+}
+
+.my-second-list a {
+  display: block;
+  margin: 8px 0;
+}
+
+.my-second-list a::before {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: pink;
+  border-radius: 50%;
+  margin-right: 8px;
+  content: '';
+}
+
+.my-second-list a::after {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  transform: rotate(45deg);
+  margin-left: 8px;
+  content: '';
+}
