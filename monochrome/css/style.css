@@ -217,6 +217,231 @@
 }
 /* fonts */
 
+/* CSS reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* CSS reset */
+
 body {
   font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 1356px;
+  margin: 0 auto;
+}
+
+.header-secondary {
+  height: 500px;
+  width: 1920px;
+  margin: 0 auto;
+  background: #2b2b2b url('./../images/banners/logo_banner.png') no-repeat
+    center center;
+  font-family: Playfair Display;
+}
+
+.header-secondary .header-top-inner {
+  padding: 0 450px;
+}
+
+.header-secondary .header-connect {
+  float: left;
+  margin-top: 28px;
+}
+
+.header-secondary .header-connect li {
+  display: inline-block;
+  font-size: 24px;
+  vertical-align: middle;
+  margin: 0 8px;
+}
+
+.header-secondary .header-connect li:last-child {
+  font-size: 16px;
+}
+
+.header-secondary .header-connect li a {
+  color: #ddd;
+}
+
+.header-secondary .header-controls {
+  float: right;
+  margin-top: 28px;
+}
+
+.header-secondary .header-controls li {
+  display: inline-block;
+  font-size: 24px;
+  vertical-align: middle;
+  margin: 0 8px;
+}
+
+.header-secondary .header-controls li a {
+  color: #2b2b2b;
+}
+
+.header-secondary .header-controls .search-bar {
+  border: 1px solid black;
+  padding: 4px;
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+
+.header-secondary .header-controls .search-bar input {
+  background-color: transparent;
+  border: 0px solid;
+}
+
+.header-secondary .header-controls .search-bar .fa-magnifying-glass {
+  color: #2b2b2b;
+  padding: 0 4px;
+}
+
+.header-primary {
+  min-width: 1920px;
+  height: 50px;
+  background: #2b2b2b;
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.header-primary .nav-primary ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-primary .nav-primary li {
+  display: inline-block;
+  margin: 14px 0;
+}
+
+.header-primary .nav-primary li a {
+  color: #e8e8e8;
+  text-decoration: none;
 }

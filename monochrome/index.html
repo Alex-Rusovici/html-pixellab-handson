@@ -28,10 +28,102 @@
 </head>
 
 <body>
-
   <header class="header">
+    <section class="header-secondary">
+      <header class="header-top-inner container">
+        <header class="header-connect">
+          <ul>
+            <li>
+              <a
+                href=""
+                title="Youtube"
+              ><i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href=""
+                title="Facebook"
+              ><i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href=""
+                title="Twitter"
+              ><i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href=""
+                title="Instagram"
+              ><i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+">
+                Call us +44 (0)10 2345 6789
+              </a>
+            </li>
+          </ul>
+        </header>
+        <!-- ./header-connect -->
+        <header class="header-controls">
+          <ul>
+            <li class="search-bar">
+              <input
+                type="search"
+                name="search-bar"
+                id="search-bar"
+                title="search-bar"
+                placeholder="Search"
+              >
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <!-- !!!de vazut cum se adauga icoana in placeholder!!! -->
+            </li>
+
+            <li class="my-account">
+              <a
+                href=""
+                title="My account"
+              >
+                <i class="fa-solid fa-user"></i>
+              </a>
+            </li>
+
+            <li class="favorites">
+              <a
+                href=""
+                title="Favorites"
+              >
+                <i class="fa-solid fa-heart"></i>
+              </a>
+            </li>
+
+            <li class="cart">
+              <a
+                href=""
+                title="Cart"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- ./header-controls -->
+        </header>
+        <!-- ./header-controls -->
+      </header>
+      <!-- ./header-top-inner -->
+    </section>
+    <!-- ./header-secondary -->
+
     <section class="header-primary container">
-      <nav class="nav-primary">
+      <nav class="nav-primary container">
         <ul>
           <li>
             <a
@@ -83,130 +175,36 @@
         </ul>
       </nav>
       <!-- ./nav-primary -->
-
     </section>
     <!-- ./header-primary -->
-
-    <section class="header-secondary">
-      <header class="header-top-inner container">
-        <header class="header-connect">
-          <ul>
-            <li>
-              <a
-                href=""
-                title="Youtube"
-              ><i class="fa-brands fa-youtube"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href=""
-                title="Facebook"
-              ><i class="fa-brands fa-facebook"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href=""
-                title="Twitter"
-              ><i class="fa-brands fa-twitter"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href=""
-                title="Instagram"
-              ><i class="fa-brands fa-instagram"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="tel:+">
-                Call us +44 (0)10 2345 6789
-              </a>
-            </li>
-          </ul>
-        </header>
-        <!-- ./header-connect -->
-
-        <header class="header-controls">
-          <ul>
-            <li class="search-bar">
-              <form>
-                <input
-                  type="search"
-                  name="search-bar"
-                  id="search-bar"
-                  title="search-bar"
-                  placeholder="Icon + Search"
-                >
-                <!-- !!!de vazut cum se adauga icoana in placeholder!!! -->
-              </form>
-            </li>
-
-            <li class="my-account">
-              <a
-                href=""
-                title="My account"
-              >
-                <i class="fa-solid fa-user"></i>
-              </a>
-            </li>
-
-            <li class="favorites">
-              <a
-                href=""
-                title="Favorites"
-              >
-                <i class="fa-solid fa-heart"></i>
-              </a>
-            </li>
-
-            <li class="cart">
-              <a
-                href=""
-                title="Cart"
-              >
-                <i class="fa-solid fa-cart-shopping"></i>
-              </a>
-            </li>
-          </ul>
-          <!-- ./header-controls -->
-        </header>
-        <!-- ./header-controls -->
-      </header>
-      <!-- ./header-top-inner -->
-    </section>
-    <!-- ./header-secondary -->
   </header>
+  <!-- ./header -->
 
   <main class="content">
-    <section class="home-catalog-preview container">
+    <section class="home-catalog-preview">
       <header>
         <h1>New Stuff</h1>
       </header>
-      <!-- header -->
+      <!-- ./content header -->
 
       <ul class="product-tiles">
         <li>
           <article class="product-tile">
             <header class="product-tile-header">
-              <a
-                href=""
-                title=""
-              >
+              <a href="">
                 <img
                   src="images/products/product_01.png"
                   alt="Black watch metal strap on white background"
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -238,9 +236,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -272,9 +274,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -306,9 +312,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -351,9 +361,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -385,9 +399,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -419,9 +437,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -453,9 +475,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -525,9 +551,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -559,9 +589,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="WIshlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -593,9 +627,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -627,9 +665,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -681,9 +723,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -715,9 +761,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -749,9 +799,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -783,9 +837,13 @@
                 >
               </a>
 
-              <div class="product-header-cta">
+              <a
+                href=""
+                title="Wishlist"
+                class="product-header-cta"
+              >
                 <i class="fa-regular fa-heart"></i>
-              </div>
+              </a>
             </header>
             <!-- ./product-tile-header -->
 
@@ -818,7 +876,7 @@
   </main>
   <!-- ./content -->
 
-  <footer class="footer">
+  <footer class="footer container">
     <div class="footer-inner container">
       <nav class="footer-primary">
         <ul>
