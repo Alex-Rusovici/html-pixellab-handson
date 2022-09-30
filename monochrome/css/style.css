@@ -346,61 +346,71 @@ table {
 /* CSS reset */
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Playfair Display, sans-serif;
 }
 
 .container {
   max-width: 1356px;
   margin: 0 auto;
+  width: 100%;
 }
 
+/* header */
 .header-secondary {
-  height: 500px;
-  width: 1920px;
-  margin: 0 auto;
   background: #2b2b2b url('./../images/banners/logo_banner.png') no-repeat
     center center;
-  font-family: Playfair Display;
+  height: 500px;
+  font-size: 20px;
 }
 
 .header-secondary .header-top-inner {
-  padding: 0 450px;
+  height: 500px;
+  max-width: 1356px;
 }
 
-.header-secondary .header-connect {
+.header-secondary .header-top-inner .header-connect {
   float: left;
-  margin-top: 28px;
+  margin-top: 20px;
 }
 
-.header-secondary .header-connect li {
-  display: inline-block;
-  font-size: 24px;
-  vertical-align: middle;
-  margin: 0 8px;
+.header-secondary .header-top-inner .header-connect a {
+  color: #fff;
 }
 
-.header-secondary .header-connect li:last-child {
-  font-size: 16px;
+.header-secondary .header-top-inner .header-connect ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 125px;
+  /* merge si cu gap */
 }
 
-.header-secondary .header-connect li a {
-  color: #ddd;
+.header-secondary .header-top-inner .header-connect li {
+  padding: 8px;
 }
 
-.header-secondary .header-controls {
+.header-secondary .header-top-inner .header-connect li:last-child {
+  font-size: 12px;
+}
+
+.header-secondary .header-top-inner .header-controls {
   float: right;
-  margin-top: 28px;
+  margin-top: 20px;
 }
 
-.header-secondary .header-controls li {
-  display: inline-block;
-  font-size: 24px;
-  vertical-align: middle;
-  margin: 0 8px;
+.header-secondary .header-top-inner .header-controls a {
+  color: #000;
 }
 
-.header-secondary .header-controls li a {
-  color: #2b2b2b;
+.header-secondary .header-top-inner .header-controls ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 125px;
+}
+
+.header-secondary .header-top-inner .header-controls li {
+  padding: 8px;
 }
 
 .header-secondary .header-controls .search-bar {
@@ -421,13 +431,21 @@ body {
 }
 
 .header-primary {
-  min-width: 1920px;
+  width: auto;
   height: 50px;
   background: #2b2b2b;
-  font-family: Playfair Display;
   font-weight: 400;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+.header-primary .nav-primary {
+  padding: 15px 0;
+}
+
+.header-primary .nav-primary a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .header-primary .nav-primary ul {
@@ -435,13 +453,135 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+/* header */
 
-.header-primary .nav-primary li {
-  display: inline-block;
-  margin: 14px 0;
+/* footer */
+.footer {
+  background-color: #e8e8e8;
+  width: auto;
+  height: 300px;
+  font-size: 22px;
+  display: block;
+  padding: 40px;
 }
 
-.header-primary .nav-primary li a {
-  color: #e8e8e8;
+.footer .footer-primary a {
+  color: #2b2b2b;
   text-decoration: none;
 }
+
+.footer .footer-primary ul {
+  float: left;
+  display: block;
+  margin-left: 75px;
+  line-height: 40px;
+  text-transform: lowercase;
+}
+
+.footer .footer-primary ul:first-child {
+  margin-left: 0px;
+}
+
+.footer .footer-primary ul:last-child {
+  margin-right: 75px;
+}
+
+.footer .footer-newsletter {
+  display: block;
+  text-align: left;
+  line-height: 40px;
+}
+
+.footer .footer-newsletter label {
+  font-size: 16px;
+}
+
+.footer .footer-newsletter label a {
+  text-decoration: underline;
+  color: #2b2b2b;
+}
+
+/* de stilizat email placeholder, checkbox, buton submit */
+
+.footer .footer-connect a {
+  color: #2b2b2b;
+}
+
+/* chestia asta arata decent doar cand esti zoomed out nu si cand esti zoomed in */
+.footer .footer-connect ul {
+  font-size: 32px;
+  margin-top: 20px;
+  margin-right: 435px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+}
+/* chestia asta arata decent dar nu pare deloc bine */
+/* footer */
+
+/* main content */
+.home-catalog-preview {
+  font-size: 22px;
+  color: #2b2b2b;
+  border-top: 1px solid #e8e8e8;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+}
+
+.home-catalog-preview > header {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 32px 0;
+}
+
+.home-catalog-preview ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-catalog-preview ul li {
+  width: 23.59882%; /* 320 * 100 / 1356 */
+}
+
+.home-catalog-preview .product-tile-header {
+  position: relative;
+}
+
+.home-catalog-preview .product-tile-header a {
+  color: #2b2b2b;
+}
+
+.home-catalog-preview .product-tile-header .product-header-cta {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.home-catalog-preview .product-tile .product-tile-title {
+  margin: 20px 0;
+}
+
+.home-catalog-preview .product-tile .product-tile-pricing {
+  padding-bottom: 40px;
+}
+
+/* de stilizat homecontent*/
+/* de stilizat homecontent*/
+
+.home-catalog-preview .catalog-ctas {
+  text-transform: lowercase;
+  margin-bottom: 100px;
+}
+
+.home-catalog-preview .catalog-ctas a {
+  color: #2b2b2b;
+  text-decoration: none;
+  border: 1px solid #2b2b2b;
+  padding: 12px;
+}
+/* main content */

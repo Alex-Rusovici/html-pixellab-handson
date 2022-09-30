@@ -122,7 +122,7 @@
     </section>
     <!-- ./header-secondary -->
 
-    <section class="header-primary container">
+    <section class="header-primary">
       <nav class="nav-primary container">
         <ul>
           <li>
@@ -181,7 +181,7 @@
   <!-- ./header -->
 
   <main class="content">
-    <section class="home-catalog-preview">
+    <section class="home-catalog-preview container">
       <header>
         <h1>New Stuff</h1>
       </header>
@@ -341,7 +341,7 @@
     </section>
     <!-- ./home-catalog-preview -->
 
-    <section class="home-catalog-preview">
+    <section class="home-catalog-preview container">
       <header>
         <h1>Men's</h1>
       </header>
@@ -504,34 +504,36 @@
     </section>
     <!-- ./home-catalog-preview -->
 
-    <section class="home-content">
-      <div class="home-content-copy">
-        <h1>
-          Watches for entrepreneurs
-        </h1>
+    <section class="home-content container">
+      <div class="wrapper">
+        <div class="home-content-copy">
+          <h1>
+            Watches for entrepreneurs
+          </h1>
 
-        <p>
-          But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
-          will give you a complete account of the system, and expound the actual teaching of th egreat explorer of the
-          truth, the master-builder of human happiness. <br>
-          But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
-          will give you a complete account of the system, and expound the actual teaching of th egreat explorer of the
-          truth, the master-builder of human happiness.
-        </p>
+          <p>
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
+            will give you a complete account of the system, and expound the actual teaching of th egreat explorer of the
+            truth, the master-builder of human happiness. <br>
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
+            will give you a complete account of the system, and expound the actual teaching of th egreat explorer of the
+            truth, the master-builder of human happiness.
+          </p>
+        </div>
+        <!-- ./home-content-copy -->
+
+        <aside class="home-content-image">
+          <img
+            src="images/banners/splash_01.png"
+            alt="Black accesories on black background with a white accent"
+          >
+        </aside>
+        <!-- ./home-content-image -->
       </div>
-      <!-- ./home-content-copy -->
-
-      <aside class="home-content-image">
-        <img
-          src="images/banners/splash_01.png"
-          alt="Black accesories on black background with a white accent"
-        >
-      </aside>
-      <!-- ./home-content-image -->
     </section>
     <!-- ./home-content -->
 
-    <section class="home-catalog-preview">
+    <section class="home-catalog-preview container">
       <header>
         <h1>Men's</h1>
       </header>
@@ -703,7 +705,7 @@
     </section>
     <!-- ./home-catalog-preview -->
 
-    <section class="home-catalog-preview">
+    <section class="home-catalog-preview container">
       <header>
         <h1>Women's</h1>
       </header>
@@ -876,7 +878,7 @@
   </main>
   <!-- ./content -->
 
-  <footer class="footer container">
+  <footer class="footer">
     <div class="footer-inner container">
       <nav class="footer-primary">
         <ul>
@@ -989,6 +991,8 @@
             required
           >
 
+          <br>
+
           <input
             type="checkbox"
             name="privacy"
@@ -996,8 +1000,15 @@
             required
           >
 
-          <label for="privacy">I agree with <span class="underline">Privacy Policy</span> and I want to recive emails
-            from Monochrome</label>
+          <label for="privacy">I agree with
+            <a
+              href=""
+              class="underline"
+            >Privacy Policy</a>
+            and I want to recive emails from Monochrome
+          </label>
+
+          <br>
 
           <button
             type="submit"
