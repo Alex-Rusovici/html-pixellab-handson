@@ -473,7 +473,7 @@ body {
 .footer .footer-primary ul {
   float: left;
   display: block;
-  margin-left: 75px;
+  margin-left: 100px;
   line-height: 40px;
   text-transform: lowercase;
 }
@@ -501,7 +501,19 @@ body {
   color: #2b2b2b;
 }
 
-/* de stilizat email placeholder, checkbox, buton submit */
+.footer .footer-newsletter form input {
+  background-color: #fff;
+  border: 0px solid;
+  padding: 6px 25px 6px 6px;
+  font-style: italic;
+}
+
+.footer .footer-newsletter form button {
+  background-color: transparent;
+  border-radius: 1px solid black;
+  text-transform: uppercase;
+  padding: 8px;
+}
 
 .footer .footer-connect a {
   color: #2b2b2b;
@@ -511,7 +523,7 @@ body {
 .footer .footer-connect ul {
   font-size: 32px;
   margin-top: 20px;
-  margin-right: 435px;
+  margin-right: 380px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -570,8 +582,37 @@ body {
   padding-bottom: 40px;
 }
 
-/* de stilizat homecontent*/
-/* de stilizat homecontent*/
+.home-content {
+  display: block;
+  font-size: 22px;
+}
+
+.home-content .wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-content .home-content-copy {
+  width: 550px;
+}
+
+.home-content .home-content-copy h1 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.home-content .home-content-copy p {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.home-content .home-content-copy p:nth-child(2) {
+  margin: 40px 0 100px 0;
+}
 
 .home-catalog-preview .catalog-ctas {
   text-transform: lowercase;
